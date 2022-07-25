@@ -1,0 +1,106 @@
+main {
+   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.glass {
+   background: linear-gradient(to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3));
+}
+
+.icon {
+   color: #cc3333;
+   opacity: 0.8;
+   width: 3rem;
+   height: 3rem;
+}
+
+.pro {
+   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.pro img {
+   position: absolute;
+   top: -10%;
+   right: 10%;
+}
+
+.status input {
+   background: linear-gradient(to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3));
+}
+
+.dashboard {
+   background: linear-gradient(to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3));
+}
+
+.card {
+   display: flex;
+   background: linear-gradient(to left top,
+         rgba(255, 255, 255, 0.8),
+         rgba(255, 255, 255, 0.5));
+}
+
+.progress {
+   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.progress::after {
+   content: "";
+   width: 100%;
+   height: 100%;
+   background: rgb(236, 236, 236);
+   position: absolute;
+   left: 60%;
+}
+
+.circle1,
+.circle2 {
+   background: white;
+   background: linear-gradient(to right bottom,
+         rgba(255, 255, 255, 0.8),
+         rgba(255, 255, 255, 0.3));
+}
+
+
+.circle1 {
+   top: 7%;
+   right: 7%;
+}
+
+.circle2 {
+   bottom: 7%;
+   left: 7%;
+}
+
+.social-list {
+   position: relative;
+   z-index: 2;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 2em 0 0;
+   padding: 0;
+}
+
+.social-list__item {
+   margin: 0 .5em;
+}
+
+.social-list__item a {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.social-list__item i {
+   font-size: 32px;
+}
+
+.social-list__link {
+   padding: 0.5em;
+}
