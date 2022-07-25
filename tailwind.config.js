@@ -10,8 +10,7 @@ module.exports = {
         lightGray: "#e8e8e8",
       },
       height: {
-        80: "40rem",
-        "80rem": "20rem",
+        "20rem": "20rem",
       },
       width: {
         1120: "70rem",

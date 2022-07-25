@@ -8,6 +8,38 @@ main {
          rgba(255, 255, 255, 0.3));
 }
 
+@media only screen and (min-height: 700px) {
+   .glass {
+      height: 40rem;
+   }
+
+   .circle1 {
+      top: 7%;
+      right: 7%;
+   }
+
+   .circle2 {
+      bottom: 7%;
+      left: 7%;
+   }
+}
+
+@media only screen and (min-height: 900px) {
+   .glass {
+      height: 50rem;
+   }
+
+   .circle1 {
+      top: 5%;
+      right: 15%;
+   }
+
+   .circle2 {
+      bottom: 5%;
+      left: 15%;
+   }
+}
+
 .icon {
    color: #cc3333;
    opacity: 0.8;
@@ -66,7 +98,7 @@ main {
 }
 
 
-.circle1 {
+/* .circle1 {
    top: 7%;
    right: 7%;
 }
@@ -74,7 +106,7 @@ main {
 .circle2 {
    bottom: 7%;
    left: 7%;
-}
+} */
 
 .social-list {
    position: relative;

@@ -12,7 +12,7 @@ const LetsTalkPage = () => {
         <li className="social-list__item">
           {/* <!-- Link o seu email no # --> */}
           <a
-            href="mailto:arthur.m.nascimento@hotmail.com?Subject=Oi Arthur, eu tenho uma pergunta!"
+            href="mailto:#?Subject=Oi #, eu tenho uma pergunta!"
             className="social-list__link items-center"
             target="_blank"
           >
@@ -24,7 +24,7 @@ const LetsTalkPage = () => {
         <li className="social-list__item">
           {/* <!-- Link seu WhatsApp no # --> */}
           <a
-            href="https://wa.me/5511989358225/?text=Oi Arthur!"
+            href="https://wa.me/#/?text=Oi Arthur!"
             className="social-list__link items-center"
             target="_blank"
           >
@@ -36,7 +36,7 @@ const LetsTalkPage = () => {
         <li className="social-list__item">
           {/* <!-- Link seu Instagram no # --> */}
           <a
-            href="https://www.instagram.com/arthurnasci/"
+            href="https://www.instagram.com/#/"
             className="social-list__link items-center"
             target="_blank"
           >
